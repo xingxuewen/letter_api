@@ -1,0 +1,330 @@
+img {
+  position: relative;
+}
+img:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #efefef;
+}
+html,
+body {
+  background-color: #fff;
+}
+.common_center {
+  background-color: #fff;
+  overflow: hidden;
+}
+.common_center .top_box {
+  width: 100%;
+  height: 4.67rem;
+  background: url('/view/img/users/vip/center/top_bg.png') no-repeat 0 0;
+  background-size: 100% 4.67rem;
+}
+.common_center .top_box header {
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  font-size: .36rem;
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+  position: relative;
+}
+.common_center .top_box header .return_back {
+  width: .42rem;
+  height: .42rem;
+  position: absolute;
+  left: .3rem;
+  top: .23rem;
+  display: inline-block;
+  background: url('/view/img/users/vip/center/return_back.png') no-repeat 0 0;
+  background-size: .42rem .42rem;
+}
+.common_center .list_mod {
+  padding: 0 .3rem;
+}
+.common_center .vip_privilege .title,
+.common_center .recharge_vip .title,
+.common_center .vip_dynamic .title {
+  width: 100%;
+  height: .32rem;
+  line-height: .32rem;
+  text-align: center;
+}
+.common_center .vip_privilege .title span,
+.common_center .recharge_vip .title span,
+.common_center .vip_dynamic .title span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.common_center .vip_privilege .title .privilege_left_arrow,
+.common_center .recharge_vip .title .privilege_left_arrow,
+.common_center .vip_dynamic .title .privilege_left_arrow {
+  width: .46rem;
+  height: .06rem;
+  background: url(/view/img/users/vip/center/privilege_left_arrow.png) no-repeat 0 0;
+  background-size: .46rem .06rem;
+}
+.common_center .vip_privilege .title .title_text,
+.common_center .recharge_vip .title .title_text,
+.common_center .vip_dynamic .title .title_text {
+  font-size: .32rem;
+  color: #b88646;
+  margin: 0 .1rem;
+}
+.common_center .vip_privilege .title .privilege_right_arrow,
+.common_center .recharge_vip .title .privilege_right_arrow,
+.common_center .vip_dynamic .title .privilege_right_arrow {
+  width: .46rem;
+  height: .06rem;
+  background: url(/view/img/users/vip/center/privilege_right_arrow.png) no-repeat 0 0;
+  background-size: .46rem .06rem;
+}
+.common_center .vip_privilege {
+  width: 100%;
+  border-radius: .06rem;
+  box-shadow: 0 0.17rem 0.33rem 0 rgba(223, 223, 223, 0.5);
+  border: 1px solid #e4e4e4;
+  background-color: #fff;
+  transform: translateY(-3rem);
+  padding: .38rem 0 0;
+  position: relative;
+}
+.common_center .vip_privilege .privilege_box {
+  width: 100%;
+  margin-top: .38rem;
+}
+.common_center .vip_privilege .privilege_box .privilege_item {
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: .3rem;
+}
+.common_center .vip_privilege .privilege_box .privilege_item img {
+  width: .8rem;
+  height: .8rem;
+}
+.common_center .vip_privilege .privilege_box .privilege_item .main_title {
+  width: 1.7rem;
+  text-align: center;
+  height: .3rem;
+  line-height: .3rem;
+  font-size: .26rem;
+  color: #333;
+  letter-spacing: -0.5px;
+  display: block;
+  margin: .15rem auto 0;
+  overflow: hidden;
+}
+.common_center .vip_privilege .privilege_box .privilege_item .main_title .num {
+  font-size: .2rem;
+  color: #c99f61;
+  font-weight: 700;
+}
+.common_center .vip_privilege .privilege_box .privilege_item .sec_title {
+  width: 1.44rem;
+  overflow: hidden;
+  margin: .08rem auto 0;
+  text-align: center;
+  height: .3rem;
+  line-height: .3rem;
+  font-size: .22rem;
+  display: inline-block;
+  color: #999;
+}
+.common_center .vip_privilege .privilege_box .privilege_exclusive img {
+  width: .57rem;
+  height: .5rem;
+}
+.common_center .vip_privilege .privilege_box .privilege_exclusive .main_title {
+  margin-top: .2rem;
+}
+.common_center .recharge_vip {
+  width: 100%;
+  transform: translateY(-2.63rem);
+}
+.common_center .recharge_vip .recharge_kind {
+  width: 100%;
+  height: 2.52rem;
+  margin-top: .35rem;
+  display: flex;
+  justify-content: space-between;
+}
+.common_center .recharge_vip .recharge_kind .kind_item {
+  width: 2.14rem;
+  height: 2.52rem;
+  border: 1px solid #e4e4e4;
+  border-radius: .08rem;
+  background: url(/view/img/users/vip_v2/center/recharge_kind_bg.png) no-repeat 0 0;
+  background-size: 2.14rem 2.52rem;
+  text-align: center;
+  padding-top: .3rem;
+  position: relative;
+}
+.common_center .recharge_vip .recharge_kind .kind_item .recommend_icon {
+  position: absolute;
+  left: -0.07rem;
+  top: -0.1rem;
+  width: .99rem;
+  height: .46rem;
+  background: url(/view/img/users/vip_v2/center/recommend_icon.png) no-repeat 0 0;
+  background-size: .99rem .46rem;
+}
+.common_center .recharge_vip .recharge_kind .kind_item .main_title {
+  font-size: .28rem;
+  color: #CAAD74;
+  height: .4rem;
+  line-height: .4rem;
+}
+.common_center .recharge_vip .recharge_kind .kind_item .now_price {
+  color: #CAAD74;
+  font-size: .48rem;
+  line-height: .54rem;
+  height: .54rem;
+  vertical-align: text-bottom;
+}
+.common_center .recharge_vip .recharge_kind .kind_item .now_price span {
+  font-size: .3rem;
+  vertical-align: text-bottom;
+  color: #CAAD74;
+}
+.common_center .recharge_vip .recharge_kind .kind_item .old_price {
+  color: #999;
+  font-size: .24rem;
+  text-decoration: line-through;
+  height: .34rem;
+  line-height: .34rem;
+}
+.common_center .recharge_vip .recharge_kind .kind_item .sec_title {
+  color: #CAAD74;
+  font-size: .24rem;
+  line-height: .27rem;
+  margin-top: .1rem;
+}
+.common_center .recharge_vip .recharge_kind .selected_kind {
+  background: #f7e8cb;
+}
+.common_center .recharge_vip .recharge_kind .selected_kind .main_title {
+  color: #333;
+  font-weight: 700;
+}
+.common_center .recharge_vip .recharge_kind .selected_kind .now_price {
+  color: #333;
+  font-weight: 700;
+}
+.common_center .recharge_vip .recharge_kind .selected_kind .now_price span {
+  color: #333;
+}
+.common_center .recharge_vip .recharge_kind .selected_kind .sec_title {
+  color: #333;
+}
+.common_center .recharge_vip .vip_agreement {
+  text-align: center;
+  height: .3rem;
+  line-height: .3rem;
+  font-size: .24rem;
+  color: #999;
+  margin: .33rem 0 .29rem;
+}
+.common_center .recharge_vip .vip_agreement span {
+  color: #cdb07e;
+}
+.common_center .recharge_vip .recharge_btn {
+  width: 100%;
+  height: 1.14rem;
+  background: url(/view/img/users/vip_v2/center/recharge_button.png) no-repeat 0 0;
+  background-size: 6.9rem 1.14rem;
+  outline: none;
+  border: none;
+  color: #CBAD7A;
+  font-size: .36rem;
+  text-align: center;
+  padding-bottom: .2rem;
+}
+.common_center .vip_dynamic {
+  width: 100%;
+  background-color: #fff;
+  transform: translateY(-2.4rem);
+}
+.common_center .vip_dynamic .content_box {
+  width: 100%;
+  margin: .31rem auto 0;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 .17rem .33rem 0 #f1f1f1;
+  border-radius: .06rem;
+  padding: .33rem 0 .25rem;
+}
+.common_center .vip_dynamic .content_box .photo {
+  width: 81%;
+  position: relative;
+  overflow: hidden;
+  padding-right: .01rem;
+  margin: 0 auto;
+}
+.common_center .vip_dynamic .content_box .photo .swiper-slide {
+  display: inline-block;
+  padding: .14rem 0;
+  text-align: center;
+}
+.common_center .vip_dynamic .content_box .photo .swiper-slide img {
+  width: .6rem;
+  height: .6rem;
+  border-radius: 50%;
+}
+.common_center .vip_dynamic .content_box .photo .swiper-slide-active {
+  height: 100%;
+  padding: .07rem 0;
+  border-radius: 50%;
+  text-align: center;
+}
+.common_center .vip_dynamic .content_box .photo .swiper-slide-active img {
+  width: .8rem;
+  height: .8rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px .05rem #ddbb7c;
+}
+.common_center .vip_dynamic .content_box .photo .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+.common_center .vip_dynamic .content_box .dynamic_line {
+  width: 6rem;
+  height: .13rem;
+  background: url(/view/img/users/vip/center/dynamic_line.png) no-repeat 0 0;
+  background-size: 100% .13rem;
+  margin: .14rem auto 0;
+}
+.common_center .vip_dynamic .content_box .content_info {
+  width: 6rem;
+  margin: .3rem auto 0;
+}
+.common_center .vip_dynamic .content_box .content_info p:first-of-type {
+  height: .4rem;
+  line-height: .4rem;
+}
+.common_center .vip_dynamic .content_box .content_info p:first-of-type .name {
+  font-size: .28rem;
+  color: #B88646;
+  float: left;
+  font-weight: 700;
+}
+.common_center .vip_dynamic .content_box .content_info p:first-of-type .date {
+  font-size: .24rem;
+  color: #999;
+  float: right;
+}
+.common_center .vip_dynamic .content_box .content_info p:last-of-type {
+  font-size: .24rem;
+  height: .34rem;
+  line-height: .34rem;
+  color: #999;
+  margin-top: .1rem;
+}

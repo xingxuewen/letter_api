@@ -1,0 +1,180 @@
+.specials_box {
+  width: 100%;
+}
+.specials_box .banner {
+  width: 100%;
+  height: 2.87rem;
+  display: inline-block;
+}
+.specials_box .banner[src=""] {
+  opacity: 0;
+}
+.specials_box .pro_list {
+  width: 100%;
+}
+.specials_box .pro_list .product_list {
+  margin-bottom: .12rem;
+  background: white;
+  position: relative;
+  cursor: pointer;
+}
+.specials_box .pro_list .product_list > dl {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.specials_box .pro_list .product_list > dl dt {
+  float: left;
+  width: 1.4rem;
+}
+.specials_box .pro_list .product_list > dl dt img,
+.specials_box .pro_list .product_list > dl dt span {
+  width: .72rem;
+  height: .72rem;
+  margin: .2rem auto;
+  display: block;
+}
+.specials_box .pro_list .product_list > dl dd {
+  float: left;
+}
+.specials_box .pro_list .product_list > dl dd h3 {
+  font-size: 0.28rem;
+  color: #303030;
+  padding-top: .1rem;
+  line-height: .56rem;
+}
+.specials_box .pro_list .product_list > dl dd h3 .bubble {
+  display: inline-block;
+  height: .32rem;
+  padding: 0 .15rem;
+  line-height: .36rem;
+  font-size: 0.18rem;
+  color: white;
+  background: url('/view/img/product/specials/calculator_bubble.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: -0.08rem;
+  left: .15rem;
+}
+.specials_box .pro_list .product_list > dl dd p {
+  font-size: 0.24rem;
+  color: #919191;
+}
+.specials_box .pro_list .product_list > dl > span {
+  font-size: 0.22rem;
+  color: #909090;
+  position: absolute;
+  right: .3rem;
+  top: .22rem;
+}
+.specials_box .pro_list .product_list .product_list_btm {
+  overflow: hidden;
+  width: 100%;
+  height: 1rem;
+  margin: .1rem auto .12rem;
+}
+.specials_box .pro_list .product_list .product_list_btm > div {
+  float: left;
+}
+.specials_box .pro_list .product_list .product_list_btm > div p {
+  font-size: 0.24rem;
+  color: #909090;
+}
+.specials_box .pro_list .product_list .product_list_btm .product_list_btm_left {
+  width: 36%;
+  padding-left: .3rem;
+  border-right: 1px solid #d8d8d8;
+}
+.specials_box .pro_list .product_list .product_list_btm .product_list_btm_left p:nth-of-type(1) {
+  font-size: 0.32rem;
+  color: #fe5c0d;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.specials_box .pro_list .product_list .product_list_btm .product_list_btm_center {
+  width: 37%;
+  padding-left: .4rem;
+}
+.specials_box .pro_list .product_list .product_list_btm .product_list_btm_center p {
+  line-height: .34rem;
+}
+.specials_box .pro_list .product_list .product_list_btm .product_list_btm_center p:nth-of-type(1) {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.specials_box .pro_list .product_list .product_list_btm .product_list_btm_center p:nth-of-type(2) {
+  padding-top: .1rem;
+}
+.specials_box .pro_list .product_list .product_list_btm .product_list_btm_right {
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.specials_box .pro_list .product_list .product_list_btm .product_list_btm_right span {
+  font-size: 0.28rem;
+  color: #ffffff;
+  margin: .2rem 0 0 .2rem;
+  display: block;
+  width: 1.46rem;
+  height: .5rem;
+  line-height: .5rem;
+  background-color: #4c86f5;
+  border-radius: .12rem;
+}
+.specials_box .pro_list .product_list .vip_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: .5rem;
+  height: .5rem;
+  background: url('/view/img/product/specials/vip.png') no-repeat;
+  background-size: .45rem auto;
+}
+.specials_box .pro_list .product_list .choose_icon {
+  position: absolute;
+  top: .9rem;
+  right: .35rem;
+  width: .7rem;
+  height: .7rem;
+  background: url('/view/img/product/specials/sudai_optimizatio.png') no-repeat;
+  background-size: .7rem auto;
+}
+.specials_box .pro_list .product_list:last-of-type {
+  margin-bottom: 0;
+}
+.specials_box .pro_list .product_list:last-of-type .product_list_btm {
+  margin-bottom: 0;
+}
+.specials_box .pro_list .product_list:active {
+  background-color: #e5e5e5;
+}
+.specials_box .pro_list #PullUp {
+  width: 100%;
+  height: .64rem;
+  line-height: .24rem;
+  padding: .2rem 0;
+  text-align: center;
+}
+.specials_box .pro_list #PullUp i {
+  width: calc((100% - 1.5rem) / 2);
+  height: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #d8d8d8;
+}
+.specials_box .pro_list #PullUp span {
+  width: 1.5rem;
+  height: .28rem;
+  line-height: .28rem;
+  font-size: .28rem;
+  color: #737373;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.specials_box #specialId {
+  display: none;
+}

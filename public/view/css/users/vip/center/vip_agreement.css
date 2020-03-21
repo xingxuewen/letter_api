@@ -1,0 +1,25 @@
+/*协议*/
+#vip_agreement {
+  background-color: #f5f5f5;
+}
+#vip_agreement .center {
+  padding: .3rem;
+  color: #404040;
+  line-height: .44rem;
+}
+#vip_agreement img {
+  width: 100%;
+}
+#vip_agreement h3 {
+  font-size: .3rem;
+  font-weight: bold;
+  padding-top: .2rem;
+  line-height: .5rem;
+}
+#vip_agreement p {
+  font-size: .28rem;
+}
+#vip_agreement h6 {
+  font-size: .28rem;
+  font-weight: bold;
+}
