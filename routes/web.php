@@ -15,27 +15,27 @@
  */
 
 $router->get('/', function () use ($router) {
-    return \App\Helpers\RestResponseFactory::ok(null, 'Chongdian API');
+    return \App\Helpers\RestResponseFactory::ok(null, 'Love_letter API');
 });
 // V1版本接口
 $router->get('/v1', function () {
-    return \App\Helpers\RestResponseFactory::ok(null, 'Chongdian API v1.0');
+    return \App\Helpers\RestResponseFactory::ok(null, 'Love_letter API v1.0');
 });
 // V2版本接口
 $router->get('/v2', function () {
-    return \App\Helpers\RestResponseFactory::ok(null, 'Chongdian API v2.0');
+    return \App\Helpers\RestResponseFactory::ok(null, 'Love_letter API v2.0');
 });
 // V3版本接口
 $router->get('/v3', function () {
-    return \App\Helpers\RestResponseFactory::ok(null, 'Chongdian API v3.0');
+    return \App\Helpers\RestResponseFactory::ok(null, 'Love_letter API v3.0');
 });
 // V4版本接口
 $router->get('/v4', function () {
-    return \App\Helpers\RestResponseFactory::ok(null, 'Chongdian API v4.0');
+    return \App\Helpers\RestResponseFactory::ok(null, 'Love_letter API v4.0');
 });
 // V5版本接口
 $router->get('/v5', function () {
-    return \App\Helpers\RestResponseFactory::ok(null, 'Chongdian API v5.0');
+    return \App\Helpers\RestResponseFactory::ok(null, 'Love_letter API v5.0');
 });
 /**
  * Load all routes
